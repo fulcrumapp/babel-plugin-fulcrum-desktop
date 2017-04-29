@@ -1,5 +1,5 @@
 {
-  "name": "babel-plugin-fulcrum-sync-plugin",
+  "name": "babel-plugin-fulcrum-sync",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
