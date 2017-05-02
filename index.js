@@ -3,7 +3,7 @@ module.exports = function() {
     manipulateOptions: function(babelOpts) {
       babelOpts.resolveModuleSource = function (source, filename) {
         if (source === 'fulcrum') {
-          return 'fulcrum-sync-plugin';
+          return 'fulcrum-desktop-plugin';
         }
         return source;
       };
